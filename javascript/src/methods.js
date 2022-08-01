@@ -874,9 +874,10 @@ methods.addLayersControl = function(baseGroups, overlayGroups, options) {
       if (this.hasLayer(layer)) {
         if (firstLayer) {
           firstLayer = false;
-        } else {
-          this.removeLayer(layer);
         }
+        // else {
+        //  this.removeLayer(layer);
+        // }
       }
     }
   });
