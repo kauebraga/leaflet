@@ -893,12 +893,7 @@ methods.addLayersControl = function(baseGroups, overlayGroups, options) {
   this.addControl(this.currentLayersControl);
 };
 
-methods.removeLayersControl = function() {
-  if (this.currentLayersControl) {
-    this.removeControl(this.currentLayersControl);
-    this.currentLayersControl = null;
-  }
-};
+//
 
 methods.addScaleBar = function(options) {
 
