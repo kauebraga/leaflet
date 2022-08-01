@@ -861,7 +861,7 @@ methods.addLegend = function(options) {
 methods.addLayersControl = function(baseGroups, overlayGroups, options) {
 
   // Only allow one layers control at a time
-  methods.removeLayersControl.call(this);
+  // methods.removeLayersControl.call(this);
 
   let firstLayer = true;
   let base = {};
