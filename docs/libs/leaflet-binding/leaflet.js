@@ -2124,7 +2124,7 @@ methods.addLayersControl = function (baseGroups, overlayGroups, options) {
   var _this4 = this;
 
   // Only allow one layers control at a time
-  methods.removeLayersControl.call(this);
+  // methods.removeLayersControl.call(this);
   var firstLayer = true;
   var base = {};
 
